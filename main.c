@@ -10,9 +10,9 @@ int main(int argc, char *argv[]) {
     scanf("%d", &number);
     
     if ( number > 0 )
-      printf("양수입니다.\n");
+      printf("|x|=%d\n", number);
     else
-      printf("음수입니다.\n");
+      printf("|x|=%d\n", -number);
 	  
 	return 0;
 }
