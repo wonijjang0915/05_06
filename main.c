@@ -4,23 +4,14 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-    int number;
+    int i=0, meter;
     
-    printf("input a number :");
-    scanf("%d", &number);
-    
-    if ( number > 0 )
+    while (i<3)
     {
-	  printf("positive\n");
-    }
-    else if ( number < 0 )
-    {
-      printf("negative\n");
-    }
-    else
-    {
-      printf("zero\n");
-    }
+    	meter = i*1609;
+    	printf("%d 마일은 %d 미터입니다.\n", i, meter);
+    	i++;
+	}
 	  
 	return 0;
 }
